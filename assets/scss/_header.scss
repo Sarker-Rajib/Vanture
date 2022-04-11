@@ -1,0 +1,34 @@
+.header{
+  .navbar{
+    .container{
+      .navbar-toggler-right{
+        background: #ff0000c7;
+      }
+      .navbar-collapse{
+        .navbar-nav{
+          .nav-item{
+            &:not(:last-child){
+              margin-right: 30px;
+            }
+
+            .nav-link{
+              color: #463c3c;
+              font-size: 22px;
+              font-family: 'Roboto', sans-serif;
+              font-weight: 300;
+              transition: all 0.3s;
+
+              &:hover{
+                color: #ff0000;
+              }
+            }
+
+            .btn{
+              border: 2px solid #e3244a; 
+            }
+          }
+        }
+      }
+    }
+  }
+}
